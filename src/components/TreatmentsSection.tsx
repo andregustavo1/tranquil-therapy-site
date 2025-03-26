@@ -4,17 +4,17 @@ const TreatmentsSection = () => {
     {
       title: "Psiquiatria Ambulatorial",
       description: "Consultas e acompanhamento psiquiátrico com profissionais especializados, diagnóstico preciso e tratamento personalizado.",
-      icon: "https://images.unsplash.com/photo-1576671414121-aa2d60f1e5b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+      icon: "https://img.freepik.com/free-photo/sided-view-young-girl-talking-therapist_23-2150136592.jpg?t=st=1742997245~exp=1743000845~hmac=13f77c61fc35d0614ecbfa1055142e97ef60bf24bd2ebd7c9286527fbd6b1e21&w=996"
     },
     {
       title: "Terapia com Regressão",
       description: "Técnicas terapêuticas que permitem acessar memórias e experiências passadas para compreender e resolver questões emocionais presentes.",
-      icon: "https://images.unsplash.com/photo-1551726661-9c929f254720?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+      icon: "https://img.freepik.com/free-photo/man-talking-lady-psychologist-session_1157-47250.jpg?t=st=1742997329~exp=1743000929~hmac=2b286fcf16f75cc11bc81bb1810e2883dba4cee7cfa45659db89ed9b78684b02&w=996"
     },
     {
       title: "Hipnose Terapêutica",
       description: "Utilização do estado de transe para acessar recursos do inconsciente e promover mudanças comportamentais e emocionais.",
-      icon: "https://images.unsplash.com/photo-1633112546387-cc912d97ae11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+      icon: "https://institutoalexsilva.com.br/wp-content/uploads/2021/11/terapiacomhipnose-1024x682.jpg"
     },
     {
       title: "Tratamentos Intervencionistas",

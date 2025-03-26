@@ -4,7 +4,7 @@ const TeamSection = () => {
     {
       name: "Jorge Monteiro",
       title: "Hipnoterapeuta e Coach",
-      photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      photo: "/images/image.png",
       highlights: [
         "Mestre em Liderança e Operações Militares",
         "Trainer de Hipnose Ericksoniana",
@@ -19,7 +19,7 @@ const TeamSection = () => {
     {
       name: "Sílvia Gomes Monteiro",
       title: "Médica Psiquiatra",
-      photo: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      photo: "/images/image copy.png",
       highlights: [
         "Residência em Saúde Pública",
         "Especialista em Medicina do Tráfego",
@@ -37,19 +37,20 @@ const TeamSection = () => {
     <section id="team" className="py-20 bg-white">
       <div className="section-container">
         <h2 className="section-title">Nossa Equipe de Especialistas</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
           {team.map((member, index) => (
-            <div 
+            <div
               key={index}
               className="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:translate-y-[-5px] animate-fade-in"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="relative h-80 overflow-hidden">
-                <img 
+                <img
                   src={member.photo}
                   alt={member.name}
-                  className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500"
+                  className={`w-full h-full object-cover transform hover:scale-105 transition-transform duration-500 ${member.name === "Jorge Monteiro" ? "object-top" : "object-center"
+                    }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-igm-navy/80 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -57,7 +58,7 @@ const TeamSection = () => {
                   <p className="text-igm-lightBlue font-medium">{member.title}</p>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <div className="mb-4">
                   <h4 className="text-lg font-semibold text-igm-navy mb-2">Destaques</h4>
@@ -67,7 +68,7 @@ const TeamSection = () => {
                     ))}
                   </ul>
                 </div>
-                
+
                 <div>
                   <h4 className="text-lg font-semibold text-igm-navy mb-2">Especialidades</h4>
                   <ul className="space-y-1">
