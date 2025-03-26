@@ -31,7 +31,7 @@ const HeroSection = () => {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer" 
-              className="btn-primary text-lg"
+              className="bg-[#F97316] hover:bg-[#F97316]/90 text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-[1.03] focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:ring-opacity-50 text-lg"
             >
               Agende sua Consulta
             </a>

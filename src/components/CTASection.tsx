@@ -28,7 +28,7 @@ const CTASection = () => {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white hover:bg-igm-gray text-igm-navy font-semibold px-8 py-4 rounded-lg inline-block transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 shadow-lg"
+              className="bg-[#F97316] hover:bg-[#F97316]/90 text-white font-semibold px-8 py-4 rounded-lg inline-block transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:ring-opacity-50 shadow-lg"
             >
               Fale com um Especialista
             </a>

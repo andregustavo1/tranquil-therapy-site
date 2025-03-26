@@ -44,13 +44,11 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <a href="#home" className="flex items-center">
-            {/* Logo placeholder - replace with actual logo */}
-            <h1 className={cn(
-              "font-display font-bold transition-colors duration-300",
-              scrolled ? "text-igm-navy" : "text-white"
-            )}>
-              Instituto Gomes Monteiro
-            </h1>
+            <img 
+              src="/lovable-uploads/c0950db0-5e77-4390-ab49-067d27c1dc02.png" 
+              alt="Instituto Gomes Monteiro" 
+              className="h-12 mr-3" 
+            />
           </a>
         </div>
 
@@ -73,7 +71,7 @@ const Header = () => {
           href={whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-primary"
+          className="bg-[#F97316] hover:bg-[#F97316]/90 text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-[1.03] focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:ring-opacity-50"
         >
           Agende sua Consulta
         </a>

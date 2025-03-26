@@ -41,7 +41,7 @@ const ProcessSection = () => {
                 {steps.map((step, index) => (
                   <div 
                     key={index}
-                    className="text-center px-4"
+                    className="text-center px-4 pt-4"
                     onMouseEnter={() => setActiveStep(index)}
                   >
                     <div className="relative flex flex-col items-center animate-fade-in" style={{ animationDelay: `${index * 0.2}s` }}>
@@ -72,7 +72,7 @@ const ProcessSection = () => {
             {steps.map((step, index) => (
               <div 
                 key={index}
-                className="flex items-center space-x-4 animate-fade-in"
+                className="flex items-center space-x-4 animate-fade-in pt-4"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <div 
