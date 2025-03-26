@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8">
           <div>
-            <div className="mb-4">
+            <div className="mb-4 bg-white/10 inline-block p-2 rounded-lg">
               <img 
                 src="/lovable-uploads/c0950db0-5e77-4390-ab49-067d27c1dc02.png" 
                 alt="Instituto Gomes Monteiro" 

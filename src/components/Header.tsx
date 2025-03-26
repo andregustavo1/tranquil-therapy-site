@@ -38,17 +38,22 @@ const Header = () => {
         "fixed w-full z-50 transition-all duration-300 px-4 md:px-8 py-3",
         scrolled 
           ? "bg-white shadow-md" 
-          : "bg-transparent"
+          : "bg-igm-navy/90 backdrop-blur-sm" // Adicionando alguma transparência e blur para melhorar o contraste
       )}
     >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <a href="#home" className="flex items-center">
-            <img 
-              src="/lovable-uploads/c0950db0-5e77-4390-ab49-067d27c1dc02.png" 
-              alt="Instituto Gomes Monteiro" 
-              className="h-12 mr-3" 
-            />
+            <div className={cn(
+              "rounded-full p-1.5 transition-colors duration-300",
+              scrolled ? "bg-transparent" : "bg-white/10"
+            )}>
+              <img 
+                src="/lovable-uploads/c0950db0-5e77-4390-ab49-067d27c1dc02.png" 
+                alt="Instituto Gomes Monteiro" 
+                className="h-12 mr-3" 
+              />
+            </div>
           </a>
         </div>
 
